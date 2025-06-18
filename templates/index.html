@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Resume Screening</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Smart Resume Screening</h2>
+    <div class="card shadow p-4">
+      <form action="/screen" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label for="resume" class="form-label">Upload Resume (PDF)</label>
+          <input class="form-control" type="file" name="resume" accept=".pdf" required>
+        </div>
+        <div class="mb-3">
+          <label for="job_description" class="form-label">Job Description</label>
+          <textarea class="form-control" name="job_description" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Screen Resume</button>
+      </form>
+    </div>
+
+    {% if result %}
+    <div class="mt-5">
+      <h4>Screening Result</h4>
+      <pre class="p-3 bg-white border rounded" style="white-space: pre-wrap;">{{ result }}</pre>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
