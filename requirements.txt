@@ -6,3 +6,5 @@ PyMuPDF
 fastapi
 python-multipart
 uvicorn
+jinja2
+pytest

@@ -5,6 +5,12 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import tempfile
 import os
+import tempfile
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 from src.resume_parser import extract_text_from_pdf
 from src.screening import screen_candidate
@@ -48,3 +54,4 @@ async def screen_resume(
         "request": request,
         "result": result,
     })
+    
