@@ -1,4 +1,8 @@
+langchain-groq 
+langchain-community
 langchain
-pandas
+python-dotenv
+PyMuPDF
 fastapi
-langchain-community 
+python-multipart
+uvicorn
