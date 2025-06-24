@@ -4,8 +4,8 @@ Your task is to evaluate a candidate's resume against a job description.
 
 You must follow these steps strictly:
 1. Extract relevant skills, experience, certifications, and education from the resume.
-2. Identify **only explicit keyword matches**: show which keywords from the **job description** appear verbatim in the resume.
-3. For each matched keyword, indicate whether it is:
+2. **Extract explicit 20 keyword matches**: show which keywords from the **job description** appear verbatim in the resume.
+3. For each matched keyword, indicate whether it is if 
    - ✅ Present (verbatim match)
    - ❌ Missing (not present at all)
 4. Determine the **relevance and strength** of each match (e.g., strong, partial, missing).
