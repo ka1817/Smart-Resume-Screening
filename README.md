@@ -1,4 +1,4 @@
-## Smart Resume Screening System
+## 🤖 Smart Resume Screening System
 ---
 
 ## 🚀 Problem Statement
