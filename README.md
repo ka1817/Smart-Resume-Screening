@@ -18,7 +18,7 @@ There's a need for an intelligent, automated, and explainable resume screening s
 
 ---
 
-🚀 Introduction
+## 🚀 Introduction
 
 Smart Resume Screening is an AI-powered web application that intelligently evaluates resumes against job descriptions using FastAPI, LangChain, and LLM (LLaMA3 via Groq).
 
