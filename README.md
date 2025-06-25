@@ -1,5 +1,4 @@
-# Smart Resume Screening (FastAPI + Docker + GitHub Actions + EC2)
-
+## Smart Resume Screening System
 ---
 
 ## 🚀 Problem Statement
