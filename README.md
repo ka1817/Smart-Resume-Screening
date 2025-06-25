@@ -15,26 +15,28 @@ This inefficiency leads to:
  • Missed opportunities for top talent
 
 There's a need for an intelligent, automated, and explainable resume screening system that can augment the recruitment process.
+
 ---
 
-## 🌎 Introduction
+🚀 Introduction
 
-"Smart Resume Screening" is a full-stack, LLM-powered solution that:
+Smart Resume Screening is an AI-powered web application that intelligently evaluates resumes against job descriptions using FastAPI, LangChain, and LLM (LLaMA3 via Groq).
 
-* Extracts text from uploaded resumes (PDF)
-* Screens resumes against job descriptions using an LLM prompt (via GROQ API)
-* Scores and provides detailed AI-driven analysis
-* Includes CI/CD pipeline and Dockerized deployment
-* Deployed on AWS EC2 instance
+It extracts meaningful information (skills, education, experience) from a PDF resume, compares it to a job description, and provides:
 
-Tech Stack:
+✅ 20 keyword match scores
 
-* **Backend**: FastAPI
-* **Frontend**: HTML + CSS + Bootstrap
-* **AI Model**: Groq's LLaMA 3 (via LangChain)
-* **Containerization**: Docker
-* **CI/CD**: GitHub Actions
-* **Hosting**: AWS EC2
+🔍 Relevance-based insights
+
+📊 Final score with shortlist verdict
+
+🌐 Intuitive web interface using HTML/CSS/Bootstrap
+
+🐳 Containerized with Docker & deployed on AWS EC2
+
+⚙️ CI/CD automated via GitHub Actions
+
+This tool is designed for HR professionals, startups, and tech recruiters who want to reduce manual screening effort and make faster, data-driven hiring decisions.
 
 ---
 
