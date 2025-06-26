@@ -166,4 +166,4 @@ DockerHub: [`pranavreddy123`](https://hub.docker.com/u/pranavreddy123)
 
 ---
 
-*Built with FastAPI ✨, powered by Groq AI 🧪*
+*Developed By Pranav Reddy*
