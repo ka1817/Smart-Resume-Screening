@@ -27,7 +27,7 @@
         </button>
         <div id="loader" class="text-center mt-4 d-none">
           <div class="spinner-border text-primary" role="status"></div>
-          <p class="mt-2 text-muted">Analyzing resume...</p>
+          <p class="mt-2 text-muted">Analyzing resume....</p>
         </div>
       </form>
     </div>
@@ -48,7 +48,7 @@
     function previewFileName(input) {
       const fileName = input.files[0]?.name;
       if (fileName) {
-        input.nextElementSibling?.remove(); // Remove existing filename span
+        input.nextElementSibling?.remove(); 
         const span = document.createElement('span');
         span.className = "mt-2 d-block small text-muted";
         span.innerText = `Selected: ${fileName}`;

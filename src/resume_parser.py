@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     if os.path.exists(resume_path):
         parsed_text = extract_text_from_pdf(resume_path)
-        print("===== RESUME TEXT START =====")
+        print("===== RESUME TEXT STARTs =====")
         print(parsed_text)
         print("===== RESUME TEXT END =====")
     else:
