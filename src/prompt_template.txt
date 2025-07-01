@@ -32,7 +32,7 @@ Format your response like this:
 - Candidate has 3 years of relevant backend experience.
 - Missing direct FastAPI experience but strong Python/AWS skills.
 
-**Score:** 8 / 10  
+**Score:** 7 / 10  
 **Verdict:** Consider
 
 ### Resume:
