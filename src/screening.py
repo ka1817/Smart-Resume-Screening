@@ -15,7 +15,7 @@ prompt = PromptTemplate(
     template=prompt_text
 )
 
-llm = ChatGroq(api_key=GROQ_API_KEY, model='llama3-70b-8192')  
+llm = ChatGroq(api_key=GROQ_API_KEY, model='llama-3.3-70b-versatile')  
 parser = StrOutputParser()
 
 chain = prompt | llm | parser
